@@ -5,3 +5,8 @@ class Account:
     
     def __init__(self):
         pass
+
+acc = Account(1000,12345)
+
+print(acc.account_no)
+print(acc.balance)
